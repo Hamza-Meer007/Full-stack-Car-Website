@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-sans text-secondary-800 bg-gray-50;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-medium text-secondary-900;
+  }
+}
+
+@layer components {
+  .container {
+    @apply px-4 mx-auto max-w-7xl;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 text-base font-medium transition-colors rounded-md;
+  }
+
+  .btn-primary {
+    @apply text-white bg-primary hover:bg-primary-600;
+  }
+
+  .btn-secondary {
+    @apply text-white bg-secondary-800 hover:bg-secondary-700;
+  }
+
+  .btn-outline {
+    @apply text-primary bg-transparent border border-primary hover:bg-primary hover:text-white;
+  }
+}
+
+/* Custom styles */
+.page-loader {
+  @apply fixed inset-0 z-50 flex items-center justify-center bg-white;
+}
+
+.car-box {
+  @apply overflow-hidden transition-all duration-300 bg-white rounded-lg shadow-md hover:shadow-lg;
+}
+
+.car-thumbnail {
+  @apply relative overflow-hidden;
+}
+
+.car-thumbnail img {
+  @apply transition-transform duration-300;
+}
+
+.car-box:hover .car-thumbnail img {
+  @apply scale-110;
+}
+
+.tag {
+  @apply absolute top-4 left-4 px-3 py-1 text-xs font-medium text-white bg-primary rounded-md;
+}
+
+.price-box {
+  @apply absolute top-4 right-4 px-3 py-1 text-sm font-bold text-white bg-secondary-800 rounded-md;
+}
+
+.car-detail {
+  @apply p-4;
+}
+
+.car-title {
+  @apply text-xl font-medium;
+}
+
+.car-location {
+  @apply flex items-center mt-2 text-sm text-gray-500;
+}
+
+.car-features {
+  @apply flex flex-wrap gap-2 mt-3;
+}
+
+.car-feature {
+  @apply px-2 py-1 text-xs bg-gray-100 rounded-full;
+}
