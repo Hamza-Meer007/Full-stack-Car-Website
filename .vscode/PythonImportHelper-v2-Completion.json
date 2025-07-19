@@ -1,0 +1,1143 @@
+[
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "generics",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "importPath": "cars.models",
+        "description": "cars.models",
+        "isExtraImport": true,
+        "detail": "cars.models",
+        "documentation": {}
+    },
+    {
+        "label": "CarImage",
+        "importPath": "cars.models",
+        "description": "cars.models",
+        "isExtraImport": true,
+        "detail": "cars.models",
+        "documentation": {}
+    },
+    {
+        "label": "CountryStock",
+        "importPath": "cars.models",
+        "description": "cars.models",
+        "isExtraImport": true,
+        "detail": "cars.models",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "importPath": "cars.models",
+        "description": "cars.models",
+        "isExtraImport": true,
+        "detail": "cars.models",
+        "documentation": {}
+    },
+    {
+        "label": "CountryStock",
+        "importPath": "cars.models",
+        "description": "cars.models",
+        "isExtraImport": true,
+        "detail": "cars.models",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "importPath": "cars.models",
+        "description": "cars.models",
+        "isExtraImport": true,
+        "detail": "cars.models",
+        "documentation": {}
+    },
+    {
+        "label": "CarImage",
+        "importPath": "cars.models",
+        "description": "cars.models",
+        "isExtraImport": true,
+        "detail": "cars.models",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "django.core.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.core.validators",
+        "description": "django.core.validators",
+        "detail": "django.core.validators",
+        "documentation": {}
+    },
+    {
+        "label": "MinValueValidator",
+        "importPath": "django.core.validators",
+        "description": "django.core.validators",
+        "isExtraImport": true,
+        "detail": "django.core.validators",
+        "documentation": {}
+    },
+    {
+        "label": "MaxValueValidator",
+        "importPath": "django.core.validators",
+        "description": "django.core.validators",
+        "isExtraImport": true,
+        "detail": "django.core.validators",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "format_html",
+        "importPath": "django.utils.html",
+        "description": "django.utils.html",
+        "isExtraImport": true,
+        "detail": "django.utils.html",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": "backend..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": "backend..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": "backend..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": "backend..venv.Scripts.activate_this",
+        "description": "backend..venv.Scripts.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": "backend..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "AccountsConfig",
+        "kind": 6,
+        "importPath": "backend.accounts.apps",
+        "description": "backend.accounts.apps",
+        "peekOfCode": "class AccountsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'accounts'",
+        "detail": "backend.accounts.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "backend.accounts.urls",
+        "description": "backend.accounts.urls",
+        "peekOfCode": "urlpatterns = [\n]",
+        "detail": "backend.accounts.urls",
+        "documentation": {}
+    },
+    {
+        "label": "ApiConfig",
+        "kind": 6,
+        "importPath": "backend.api.apps",
+        "description": "backend.api.apps",
+        "peekOfCode": "class ApiConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'api'",
+        "detail": "backend.api.apps",
+        "documentation": {}
+    },
+    {
+        "label": "CarImageSerializer",
+        "kind": 6,
+        "importPath": "backend.api.serializers",
+        "description": "backend.api.serializers",
+        "peekOfCode": "class CarImageSerializer(serializers.ModelSerializer):\n    image_url = serializers.SerializerMethodField()\n    class Meta:\n        model = CarImage\n        fields = ['id', 'image_url']\n    def get_image_url(self, obj):\n        request = self.context.get('request')\n        if obj.image:\n            image_url = obj.image.url\n            if request is not None:",
+        "detail": "backend.api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "CarSerializer",
+        "kind": 6,
+        "importPath": "backend.api.serializers",
+        "description": "backend.api.serializers",
+        "peekOfCode": "class CarSerializer(serializers.ModelSerializer):\n    # Keep the first image URL for backward compatibility\n    image_url = serializers.SerializerMethodField()\n    # Add all images\n    images = serializers.SerializerMethodField()\n    class Meta:\n        model = Car\n        fields = '__all__'\n    def get_image_url(self, obj):\n        request = self.context.get('request')",
+        "detail": "backend.api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "CountryStockSerializer",
+        "kind": 6,
+        "importPath": "backend.api.serializers",
+        "description": "backend.api.serializers",
+        "peekOfCode": "class CountryStockSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = CountryStock\n        fields = ['id', 'name', 'code', 'flag_image']",
+        "detail": "backend.api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "backend.api.urls",
+        "description": "backend.api.urls",
+        "peekOfCode": "urlpatterns = [\n    path('cars/',Cars.as_view()),\n    path('cars/<int:pk>/',CarDetails.as_view()),\n    path('country-stocks/', country_stock_list, name='country-stocks'),\n    path('car-makes/', car_makes_list, name='car-makes-list'),\n    path('fuel-types/', fuel_types_list, name='fuel-types-list'),\n    path('transmissions/', transmissions_list, name='transmissions-list'),\n]",
+        "detail": "backend.api.urls",
+        "documentation": {}
+    },
+    {
+        "label": "Cars",
+        "kind": 6,
+        "importPath": "backend.api.views",
+        "description": "backend.api.views",
+        "peekOfCode": "class Cars(generics.ListCreateAPIView):\n    queryset = Car.objects.all()\n    serializer_class = CarSerializer\n    def get_queryset(self):\n        queryset = Car.objects.all()\n        # Get filters from query params\n        country = self.request.query_params.get('country', None)\n        make = self.request.query_params.get('make', None)\n        model = self.request.query_params.get('model', None)\n        is_featured = self.request.query_params.get('is_featured', None)",
+        "detail": "backend.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "CarDetails",
+        "kind": 6,
+        "importPath": "backend.api.views",
+        "description": "backend.api.views",
+        "peekOfCode": "class CarDetails(generics.RetrieveUpdateDestroyAPIView):\n    queryset = Car.objects.all()\n    serializer_class = CarSerializer\n@api_view(['GET'])\ndef country_stock_list(request):\n    \"\"\"Return a list of countries from both CountryStock and Car models\"\"\"\n    try:\n        # Get countries from CountryStock model\n        countries_from_stock = CountryStock.objects.filter(active=True)\n        stock_serializer = CountryStockSerializer(countries_from_stock, many=True)",
+        "detail": "backend.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "country_stock_list",
+        "kind": 2,
+        "importPath": "backend.api.views",
+        "description": "backend.api.views",
+        "peekOfCode": "def country_stock_list(request):\n    \"\"\"Return a list of countries from both CountryStock and Car models\"\"\"\n    try:\n        # Get countries from CountryStock model\n        countries_from_stock = CountryStock.objects.filter(active=True)\n        stock_serializer = CountryStockSerializer(countries_from_stock, many=True)\n        # If CountryStock is empty, fallback to countries from Car model\n        if not stock_serializer.data:\n            # Get unique countries from Car model\n            car_countries = Car.objects.values_list('country', flat=True).distinct().order_by('country')",
+        "detail": "backend.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "car_makes_list",
+        "kind": 2,
+        "importPath": "backend.api.views",
+        "description": "backend.api.views",
+        "peekOfCode": "def car_makes_list(request):\n    \"\"\"Return a list of all unique car makes\"\"\"\n    try:\n        makes = Car.objects.values_list('make', flat=True).distinct().order_by('make')\n        makes_list = [make for make in makes if make]\n        return Response(makes_list)\n    except Exception as e:\n        return Response(['Toyota', 'Honda', 'Nissan', 'Mazda', 'Subaru', 'Mitsubishi'])\n@api_view(['GET'])\ndef fuel_types_list(request):",
+        "detail": "backend.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "fuel_types_list",
+        "kind": 2,
+        "importPath": "backend.api.views",
+        "description": "backend.api.views",
+        "peekOfCode": "def fuel_types_list(request):\n    \"\"\"Return a list of all unique fuel types\"\"\"\n    try:\n        fuel_types = Car.objects.values_list('fuel_type', flat=True).distinct().order_by('fuel_type')\n        fuel_types_list = [fuel_type for fuel_type in fuel_types if fuel_type]\n        return Response(fuel_types_list)\n    except Exception as e:\n        return Response(['Petrol', 'Diesel', 'Hybrid', 'LPG'])\n@api_view(['GET'])\ndef transmissions_list(request):",
+        "detail": "backend.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "transmissions_list",
+        "kind": 2,
+        "importPath": "backend.api.views",
+        "description": "backend.api.views",
+        "peekOfCode": "def transmissions_list(request):\n    \"\"\"Return a list of all unique transmissions\"\"\"\n    try:\n        transmissions = Car.objects.values_list('transmission', flat=True).distinct().order_by('transmission')\n        transmissions_list = [transmission for transmission in transmissions if transmission]\n        return Response(transmissions_list)\n    except Exception as e:\n        return Response(['Automatic', 'Manual', 'CVT', 'Semi-Automatic'])",
+        "detail": "backend.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.cars.migrations.0001_initial",
+        "description": "backend.cars.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Car',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('title', models.CharField(max_length=200)),",
+        "detail": "backend.cars.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.cars.migrations.0002_alter_car_options_car_color_car_condition_and_more",
+        "description": "backend.cars.migrations.0002_alter_car_options_car_color_car_condition_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('cars', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterModelOptions(\n            name='car',\n            options={'ordering': ['-date_added']},\n        ),\n        migrations.AddField(",
+        "detail": "backend.cars.migrations.0002_alter_car_options_car_color_car_condition_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.cars.migrations.0003_car_image",
+        "description": "backend.cars.migrations.0003_car_image",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('cars', '0002_alter_car_options_car_color_car_condition_and_more'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='car',\n            name='image',\n            field=models.ImageField(blank=True, null=True, upload_to='cars/'),\n        ),",
+        "detail": "backend.cars.migrations.0003_car_image",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.cars.migrations.0004_remove_car_image_alter_car_color_alter_car_condition_and_more",
+        "description": "backend.cars.migrations.0004_remove_car_image_alter_car_color_alter_car_condition_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('cars', '0003_car_image'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='car',\n            name='image',\n        ),\n        migrations.AlterField(",
+        "detail": "backend.cars.migrations.0004_remove_car_image_alter_car_color_alter_car_condition_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.cars.migrations.0005_countrystock",
+        "description": "backend.cars.migrations.0005_countrystock",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('cars', '0004_remove_car_image_alter_car_color_alter_car_condition_and_more'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='CountryStock',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(help_text='Country name', max_length=100)),",
+        "detail": "backend.cars.migrations.0005_countrystock",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.cars.migrations.0006_remove_car_location_car_country",
+        "description": "backend.cars.migrations.0006_remove_car_location_car_country",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('cars', '0005_countrystock'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='car',\n            name='location',\n        ),\n        migrations.AddField(",
+        "detail": "backend.cars.migrations.0006_remove_car_location_car_country",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.cars.migrations.0007_alter_car_condition_alter_car_fuel_type_and_more",
+        "description": "backend.cars.migrations.0007_alter_car_condition_alter_car_fuel_type_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('cars', '0006_remove_car_location_car_country'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='car',\n            name='condition',\n            field=models.CharField(blank=True, choices=[('Excellent', 'Excellent'), ('Very Good', 'Very Good'), ('Good', 'Good'), ('Fair', 'Fair'), ('Poor', 'Poor')], help_text='Overall condition of the vehicle', max_length=20, null=True),\n        ),",
+        "detail": "backend.cars.migrations.0007_alter_car_condition_alter_car_fuel_type_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "CarImageInline",
+        "kind": 6,
+        "importPath": "backend.cars.admin",
+        "description": "backend.cars.admin",
+        "peekOfCode": "class CarImageInline(admin.TabularInline):\n    model = CarImage\n    extra = 5  # Number of empty forms to display for uploading\n    fields = ('image', 'image_preview')\n    readonly_fields = ('image_preview',)\n    def image_preview(self, obj):\n        if obj.image:\n            return format_html('<img src=\"{}\" width=\"100\" height=\"auto\" />', obj.image.url)\n        return \"No Image\"\n    image_preview.short_description = 'Preview'",
+        "detail": "backend.cars.admin",
+        "documentation": {}
+    },
+    {
+        "label": "CarAdmin",
+        "kind": 6,
+        "importPath": "backend.cars.admin",
+        "description": "backend.cars.admin",
+        "peekOfCode": "class CarAdmin(admin.ModelAdmin):\n    inlines = [CarImageInline]\n    list_display = ('make', 'model', 'year', 'milage', 'price', 'is_sold', 'is_featured', 'first_image_display')\n    list_filter = ('make', 'fuel_type', 'transmission', 'condition', 'is_sold', 'is_featured')\n    search_fields = ('make', 'model', 'description')\n    list_editable = ('price', 'is_sold', 'is_featured')\n    readonly_fields = ('date_added', )\n    fieldsets = (\n        ('Basic Information', {\n            'fields': ('title', 'make', 'model', 'year', 'description')",
+        "detail": "backend.cars.admin",
+        "documentation": {}
+    },
+    {
+        "label": "CarsConfig",
+        "kind": 6,
+        "importPath": "backend.cars.apps",
+        "description": "backend.cars.apps",
+        "peekOfCode": "class CarsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'cars'",
+        "detail": "backend.cars.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "backend.cars.models",
+        "description": "backend.cars.models",
+        "peekOfCode": "class Car(models.Model):\n    FUEL_TYPE = [\n        ('Petrol', 'Petrol'),\n        ('Diesel', 'Diesel'),\n        ('Electric', 'Electric'),\n        ('Hybrid', 'Hybrid'),\n        ('LPG', 'LPG'),\n    ]\n    help_texts = {\n            'title': 'Enter a descriptive title for the car listing (e.g., \"2020 Toyota Camry - Low Mileage\")',",
+        "detail": "backend.cars.models",
+        "documentation": {}
+    },
+    {
+        "label": "CarImage",
+        "kind": 6,
+        "importPath": "backend.cars.models",
+        "description": "backend.cars.models",
+        "peekOfCode": "class CarImage(models.Model):\n    car = models.ForeignKey(Car, related_name='images', on_delete=models.CASCADE)\n    image = models.ImageField(upload_to='cars/', help_text='Upload car images')\n    uploaded_at = models.DateTimeField(auto_now_add=True)\n    class Meta:\n        ordering = ['uploaded_at']\n        verbose_name = 'Car Image'\n        verbose_name_plural = 'Car Images'\n    def __str__(self):\n        return f\"Image for {self.car}\"",
+        "detail": "backend.cars.models",
+        "documentation": {}
+    },
+    {
+        "label": "CountryStock",
+        "kind": 6,
+        "importPath": "backend.cars.models",
+        "description": "backend.cars.models",
+        "peekOfCode": "class CountryStock(models.Model):\n    name = models.CharField(max_length=100, help_text=\"Country name\")\n    code = models.CharField(max_length=10, help_text=\"Country code (e.g., JP)\")\n    flag_image = models.CharField(max_length=100, default=\"\", help_text=\"Flag image code\")\n    active = models.BooleanField(default=True)\n    class Meta:\n        verbose_name = 'Country Stock'\n        verbose_name_plural = 'Country Stocks'\n    def __str__(self):\n        return self.name",
+        "detail": "backend.cars.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "backend.cars.urls",
+        "description": "backend.cars.urls",
+        "peekOfCode": "urlpatterns = [\n]",
+        "detail": "backend.cars.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.asgi",
+        "description": "backend.japan_auto_exchange.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "backend.japan_auto_exchange.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-pth*wn4hf(_ue+p$@j0q0$o7^om16-b-yuks4&)436&o8k91=c'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-pth*wn4hf(_ue+p$@j0q0$o7^om16-b-yuks4&)436&o8k91=c'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n    'rest_framework_simplejwt',\n    'corsheaders',  # Add CORS headers support",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    )\n}\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'corsheaders.middleware.CorsMiddleware',  # Add CORS middleware before CommonMiddleware\n    'django.middleware.common.CommonMiddleware',",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'corsheaders.middleware.CorsMiddleware',  # Add CORS middleware before CommonMiddleware\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "ROOT_URLCONF = 'japan_auto_exchange.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'japan_auto_exchange.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Media files configuration",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Media files configuration\nMEDIA_URL = '/media/'",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Media files configuration\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Media files configuration\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Base URL for building absolute URLs\nBASE_URL = 'http://localhost:8000'\n# CORS settings",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Media files configuration\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Base URL for building absolute URLs\nBASE_URL = 'http://localhost:8000'\n# CORS settings\nCORS_ALLOW_ALL_ORIGINS = True  # In production, you should specify the allowed origins\n# CORS_ALLOWED_ORIGINS = [\n#     \"http://localhost:5173\",  # Vite default port",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Base URL for building absolute URLs\nBASE_URL = 'http://localhost:8000'\n# CORS settings\nCORS_ALLOW_ALL_ORIGINS = True  # In production, you should specify the allowed origins\n# CORS_ALLOWED_ORIGINS = [\n#     \"http://localhost:5173\",  # Vite default port\n#     \"http://127.0.0.1:5173\",\n# ]",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "MEDIA_ROOT = BASE_DIR / 'media'\n# Base URL for building absolute URLs\nBASE_URL = 'http://localhost:8000'\n# CORS settings\nCORS_ALLOW_ALL_ORIGINS = True  # In production, you should specify the allowed origins\n# CORS_ALLOWED_ORIGINS = [\n#     \"http://localhost:5173\",  # Vite default port\n#     \"http://127.0.0.1:5173\",\n# ]\nCORS_ALLOW_METHODS = [",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_URL",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "BASE_URL = 'http://localhost:8000'\n# CORS settings\nCORS_ALLOW_ALL_ORIGINS = True  # In production, you should specify the allowed origins\n# CORS_ALLOWED_ORIGINS = [\n#     \"http://localhost:5173\",  # Vite default port\n#     \"http://127.0.0.1:5173\",\n# ]\nCORS_ALLOW_METHODS = [\n    \"DELETE\",\n    \"GET\",",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_ALL_ORIGINS",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = True  # In production, you should specify the allowed origins\n# CORS_ALLOWED_ORIGINS = [\n#     \"http://localhost:5173\",  # Vite default port\n#     \"http://127.0.0.1:5173\",\n# ]\nCORS_ALLOW_METHODS = [\n    \"DELETE\",\n    \"GET\",\n    \"OPTIONS\",\n    \"PATCH\",",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_METHODS",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "CORS_ALLOW_METHODS = [\n    \"DELETE\",\n    \"GET\",\n    \"OPTIONS\",\n    \"PATCH\",\n    \"POST\",\n    \"PUT\",\n]\nCORS_ALLOW_HEADERS = [\n    \"accept\",",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_HEADERS",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.settings",
+        "description": "backend.japan_auto_exchange.settings",
+        "peekOfCode": "CORS_ALLOW_HEADERS = [\n    \"accept\",\n    \"accept-encoding\",\n    \"authorization\",\n    \"content-type\",\n    \"dnt\",\n    \"origin\",\n    \"user-agent\",\n    \"x-csrftoken\",\n    \"x-requested-with\",",
+        "detail": "backend.japan_auto_exchange.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.urls",
+        "description": "backend.japan_auto_exchange.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    # path('accounts/',include('accounts.urls')),\n    # path('cars/',include('cars.urls')),\n    path('api/v2/',include('api.urls')),\n]\n# Serve media files in development\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "backend.japan_auto_exchange.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "backend.japan_auto_exchange.wsgi",
+        "description": "backend.japan_auto_exchange.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "backend.japan_auto_exchange.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def main():\n    print(\"Hello from backend!\")\nif __name__ == \"__main__\":\n    main()",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "backend.manage",
+        "description": "backend.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'japan_auto_exchange.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "backend.manage",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    }
+]

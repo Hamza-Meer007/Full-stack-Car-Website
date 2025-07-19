@@ -58,6 +58,26 @@ const CarDetails = () => {
     setIsFavorite(!isFavorite)
   }
 
+  // Function to get country name from country code
+  const getCountryName = (countryCode: string) => {
+    const countryMap: { [key: string]: string } = {
+      'jp': 'Japan',
+      'mm': 'Myanmar',
+      'gb': 'United Kingdom',
+      'jm': 'Jamaica',
+      'tt': 'Trinidad and Tobago',
+      'au': 'Australia',
+      'mu': 'Mauritius',
+      'gy': 'Guyana',
+      'tz': 'Tanzania',
+      'ie': 'Ireland',
+      'ke': 'Kenya',
+      'zm': 'Zambia',
+      'nz': 'New Zealand'
+    }
+    return countryMap[countryCode?.toLowerCase()] || countryCode
+  }
+
   if (loading) {
     return (
       <div className="container py-16 flex justify-center">
@@ -80,21 +100,46 @@ const CarDetails = () => {
 
   return (
     <>
-      {/* Page Header */}
-      <section className="bg-secondary-800 py-16 text-white">
-        <div className="container">
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
-            <div>
-              <h1 className="text-3xl md:text-4xl font-bold mb-2">{car.title}</h1>
-              <div className="flex items-center text-gray-300">
-                <FaMapMarkerAlt className="mr-2" />
-                <span>{car.location}</span>
+      {/* Page Header with Background Image */}
+      <section 
+        className="relative py-20 text-white"
+        style={{
+          backgroundImage: `linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(${car.mainImage || car.images?.[0] || '/img/default-car.jpg'})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center center',
+          backgroundRepeat: 'no-repeat',
+          backgroundAttachment: 'fixed',
+          minHeight: '500px'
+        }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/50"></div>
+        
+        <div className="container relative z-10">
+          <div className="max-w-4xl mx-auto text-center py-16">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white drop-shadow-xl">
+              {car.title}
+            </h1>
+            
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-8 mb-8">
+              <div className="flex items-center text-gray-100 text-lg">
+                <FaMapMarkerAlt className="mr-2 text-red-400" />
+                <span className="font-medium">{car.location}</span>
               </div>
+              
+              {car.country && (
+                <div className="flex items-center text-gray-100 text-lg">
+                  <span className="font-medium">{getCountryName(car.country)}</span>
+                </div>
+              )}
             </div>
-            <div className="mt-4 md:mt-0">
-              <div className="text-3xl font-bold">{car.price ? `¥${car.price.toLocaleString()}` : 'Price on request'}</div>
+
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+              <div className="text-3xl md:text-4xl font-bold text-white drop-shadow-lg bg-primary/20 px-6 py-3 rounded-lg backdrop-blur-sm">
+                {car.price ? `¥${car.price.toLocaleString()}` : 'Price on request'}
+              </div>
+              
               {car.status && (
-                <div className="mt-1 inline-block px-3 py-1 bg-primary text-white text-sm rounded-full">
+                <div className="inline-block px-6 py-3 bg-primary text-white text-sm font-medium rounded-full shadow-lg">
                   {car.status}
                 </div>
               )}
@@ -182,7 +227,7 @@ const CarDetails = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-4">Description</h3>
                     <p className="text-gray-600 mb-6 leading-relaxed">
-                      {car.description}
+                      {car.description || 'No description available for this vehicle.'}
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -201,13 +246,17 @@ const CarDetails = () => {
                             <span className="text-gray-600">Year:</span>
                             <span className="font-medium">{car.year || 'N/A'}</span>
                           </li>
-                          <li className="flex justify-between">
+                          {/* <li className="flex justify-between">
                             <span className="text-gray-600">Body Type:</span>
                             <span className="font-medium">{car.bodyType || car.condition || 'N/A'}</span>
-                          </li>
+                          </li> */}
                           <li className="flex justify-between">
                             <span className="text-gray-600">Mileage:</span>
-                            <span className="font-medium">{car.mileage ? `${car.mileage.toLocaleString()} km` : `${car.milage.toLocaleString()} km`}</span>
+                            <span className="font-medium">{car.mileage ? `${car.mileage.toLocaleString()} km` : (car.milage ? `${car.milage.toLocaleString()} km` : 'N/A')}</span>
+                          </li>
+                          <li className="flex justify-between">
+                            <span className="text-gray-600">Country:</span>
+                            <span className="font-medium">{car.country ? getCountryName(car.country) : 'N/A'}</span>
                           </li>
                         </ul>
                       </div>
@@ -216,7 +265,7 @@ const CarDetails = () => {
                         <ul className="space-y-2">
                           <li className="flex justify-between">
                             <span className="text-gray-600">Fuel Type:</span>
-                            <span className="font-medium">{car.fuelType || car.fuel_type}</span>
+                            <span className="font-medium">{car.fuelType || car.fuel_type || 'N/A'}</span>
                           </li>
                           <li className="flex justify-between">
                             <span className="text-gray-600">Engine:</span>
@@ -224,7 +273,7 @@ const CarDetails = () => {
                           </li>
                           <li className="flex justify-between">
                             <span className="text-gray-600">Transmission:</span>
-                            <span className="font-medium">{car.transmission}</span>
+                            <span className="font-medium">{car.transmission || 'N/A'}</span>
                           </li>
                           <li className="flex justify-between">
                             <span className="text-gray-600">Color:</span>
@@ -244,14 +293,18 @@ const CarDetails = () => {
                 {activeTab === 'features' && (
                   <div>
                     <h3 className="text-xl font-bold mb-4">Features & Options</h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                      {car.features && car.features.map((feature, index) => (
-                        <div key={index} className="flex items-center">
-                          <FaCheck className="text-primary mr-2" />
-                          <span>{feature}</span>
-                        </div>
-                      ))}
-                    </div>
+                    {car.features && car.features.length > 0 ? (
+                      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        {car.features.map((feature, index) => (
+                          <div key={index} className="flex items-center">
+                            <FaCheck className="text-primary mr-2" />
+                            <span>{feature}</span>
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <p className="text-gray-600">No specific features listed for this vehicle.</p>
+                    )}
                   </div>
                 )}
 
@@ -259,18 +312,22 @@ const CarDetails = () => {
                 {activeTab === 'specifications' && (
                   <div>
                     <h3 className="text-xl font-bold mb-4">Technical Specifications</h3>
-                    <div className="border rounded-lg overflow-hidden">
-                      <table className="w-full">
-                        <tbody>
-                          {car.specifications && Object.entries(car.specifications).map(([key, value], index) => (
-                            <tr key={index} className={index % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
-                              <td className="px-6 py-3 text-gray-600">{key}</td>
-                              <td className="px-6 py-3 font-medium">{value}</td>
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    </div>
+                    {car.specifications && Object.keys(car.specifications).length > 0 ? (
+                      <div className="border rounded-lg overflow-hidden">
+                        <table className="w-full">
+                          <tbody>
+                            {Object.entries(car.specifications).map(([key, value], index) => (
+                              <tr key={index} className={index % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
+                                <td className="px-6 py-3 text-gray-600">{key}</td>
+                                <td className="px-6 py-3 font-medium">{value}</td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                    ) : (
+                      <p className="text-gray-600">No detailed specifications available for this vehicle.</p>
+                    )}
                   </div>
                 )}
               </div>

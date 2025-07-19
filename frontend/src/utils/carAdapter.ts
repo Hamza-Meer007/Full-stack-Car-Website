@@ -10,6 +10,8 @@ export const adaptCarFromBackend = (car: Car): Car => {
   // Create the base URL for images
   const baseUrl = 'http://localhost:8000';
 
+  console.log('Car ID:', car.id);
+
   // Create the image URL
   // First try to use the image_url field provided by the backend
   // If not available, try to construct it from the image field
@@ -34,6 +36,52 @@ export const adaptCarFromBackend = (car: Car): Car => {
     console.log('Using default image');
   }
 
+  // Process all images from the car.images array
+  let allImages: string[] = [];
+  
+  // Add main image first
+  if (imageUrl) {
+    allImages.push(imageUrl);
+  }
+  
+  // Add all additional images from the car.images array
+  if (car.images && Array.isArray(car.images)) {
+    console.log('Car has additional images:', car.images.length);
+    
+    // Extract URLs based on the structure of each image object
+    const additionalImages = car.images.map((img: any) => {
+      // If image is already a string URL
+      if (typeof img === 'string') {
+        return img;
+      }
+      
+      // If image has image_url property
+      if (img.image_url) {
+        return img.image_url;
+      }
+      
+      // If image has image property
+      if (img.image) {
+        if (img.image.startsWith('http')) {
+          return img.image;
+        } else {
+          const imgPath = img.image.startsWith('/') ? img.image : `/${img.image}`;
+          return `${baseUrl}${imgPath}`;
+        }
+      }
+      
+      return null;
+    }).filter(Boolean); // Remove any null values
+    
+    // Add additional images to allImages array, avoiding duplicates
+    additionalImages.forEach(url => {
+      if (!allImages.includes(url)) {
+        allImages.push(url);
+      }
+    });
+  }
+  
+  console.log('Final images array:', allImages);
   // Create a status based on is_sold
   const status = car.is_sold ? 'Sold' : 'For Sale';
 
@@ -63,7 +111,7 @@ export const adaptCarFromBackend = (car: Car): Car => {
   return {
     ...car,
     mainImage: imageUrl,
-    images: imageUrl ? [imageUrl] : [],
+    images: allImages,
     status,
     featured: car.is_featured,
     mileage: car.milage,

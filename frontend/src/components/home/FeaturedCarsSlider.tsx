@@ -48,7 +48,7 @@ const FeaturedCarsSlider = ({ cars }: FeaturedCarsSliderProps) => {
 
   const settings = {
     dots: true,
-    infinite: true,
+    infinite: cars.length > 3, // Enable infinite scrolling only if more than 3 cars
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,

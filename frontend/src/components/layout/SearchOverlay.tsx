@@ -84,7 +84,7 @@ const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
           </button>
         </form>
         <p className="mt-6 text-center text-gray-400">
-          Type keywords like "Toyota", "SUV", "Electric" or any car model
+          Type keywords like "Toyota", "Petrol", "Electric" or any car model
         </p>
       </div>
     </div>

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { FaSearch, FaCar, FaUsers, FaHandshake, FaChevronRight } from 'react-icons/fa'
 import HeroSlider from '../components/home/HeroSlider'
@@ -6,25 +6,31 @@ import FeaturedCarsSlider from '../components/home/FeaturedCarsSlider'
 import { Car } from '../types/car'
 import { fetchFeaturedCars } from '../services/api'
 import { adaptCarFromBackend } from '../utils/carAdapter'
+import CountryStockSection from '../components/home/CountryStockSection'
+import SearchBar from '@/components/home/SearchBar'
 
 const Home = () => {
-  const [featuredCars, setFeaturedCars] = useState<Car[]>([])
+  const [featuredCars, setFeaturedCars] = useState<Car[]>([]);
+  const dataFetchedRef = useRef(false);
 
   useEffect(() => {
-    // Fetch featured cars from the backend
     const getFeatured = async () => {
+      // Prevent duplicate API calls
+      if (dataFetchedRef.current) return;
+      console.log("Fetching featured cars - first time");
+      
       try {
-        const carsData = await fetchFeaturedCars()
-        // Adapt the car data from backend format to frontend format
-        const adaptedCars = carsData.map(car => adaptCarFromBackend(car))
-        setFeaturedCars(adaptedCars)
+        const carsData = await fetchFeaturedCars();
+        const adaptedCars = carsData.map(car => adaptCarFromBackend(car));
+        setFeaturedCars(adaptedCars);
+        dataFetchedRef.current = true;
       } catch (error) {
-        console.error('Error fetching featured cars:', error)
+        console.error('Error fetching featured cars:', error);
       }
-    }
+    };
 
-    getFeatured()
-  }, [])
+    getFeatured();
+  }, []);
 
   return (
     <>
@@ -34,62 +40,12 @@ const Home = () => {
       </section>
 
       {/* Search Section */}
+
       <section className="py-12 bg-gray-100">
-        <div className="container">
-          <div className="bg-white rounded-lg shadow-lg p-6 -mt-24 relative z-20">
-            <h2 className="text-2xl font-bold mb-6 text-center">Find Your Dream Car</h2>
-            <form className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
-              <div>
-                <label className="block text-sm font-medium mb-1">Make</label>
-                <select className="w-full p-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary">
-                  <option value="">Any Make</option>
-                  <option value="Toyota">Toyota</option>
-                  <option value="Honda">Honda</option>
-                  <option value="Nissan">Nissan</option>
-                  <option value="Mazda">Mazda</option>
-                  <option value="Subaru">Subaru</option>
-                </select>
-              </div>
-              <div>
-                <label className="block text-sm font-medium mb-1">Model</label>
-                <input
-                  type="text"
-                  placeholder="Any Model"
-                  className="w-full p-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium mb-1">Body Type</label>
-                <select className="w-full p-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary">
-                  <option value="">Any Type</option>
-                  <option value="Sedan">Sedan</option>
-                  <option value="SUV">SUV</option>
-                  <option value="Hatchback">Hatchback</option>
-                  <option value="Coupe">Coupe</option>
-                  <option value="Kei Car">Kei Car</option>
-                </select>
-              </div>
-              <div>
-                <label className="block text-sm font-medium mb-1">Price Range</label>
-                <select className="w-full p-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary">
-                  <option value="">Any Price</option>
-                  <option value="1000000-2000000">¥1,000,000 - ¥2,000,000</option>
-                  <option value="2000000-3000000">¥2,000,000 - ¥3,000,000</option>
-                  <option value="3000000-5000000">¥3,000,000 - ¥5,000,000</option>
-                  <option value="5000000-10000000">¥5,000,000 - ¥10,000,000</option>
-                  <option value="10000000-">¥10,000,000+</option>
-                </select>
-              </div>
-              <div className="flex items-end">
-                <button type="submit" className="btn btn-primary w-full">
-                  <FaSearch className="mr-2" />
-                  Search
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </section>
+  <div className="container">
+    <SearchBar />
+  </div>
+</section>
 
       {/* Featured Cars Section */}
       <section className="py-16">
@@ -155,80 +111,10 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="py-16">
-        <div className="container">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">What Our Customers Say</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Don't just take our word for it. Here's what our satisfied customers have to say about their Japan Auto Exchange experience.
-            </p>
-          </div>
+      {/* Add Country Stock Section here */}
+      <CountryStockSection />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="flex items-center mb-4">
-                <img src="/img/avatar/avatar-1.jpg" alt="Customer" className="w-12 h-12 rounded-full object-cover mr-4" />
-                <div>
-                  <h4 className="font-bold">Tanaka Hiroshi</h4>
-                  <p className="text-gray-500 text-sm">Tokyo</p>
-                </div>
-              </div>
-              <p className="text-gray-600 mb-4">
-                "I was looking for a reliable family car, and Japan Auto Exchange made the process so easy. Their staff was knowledgeable and helped me find the perfect Toyota for my needs."
-              </p>
-              <div className="flex text-yellow-400">
-                <span>★</span>
-                <span>★</span>
-                <span>★</span>
-                <span>★</span>
-                <span>★</span>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="flex items-center mb-4">
-                <img src="/img/avatar/avatar-2.jpg" alt="Customer" className="w-12 h-12 rounded-full object-cover mr-4" />
-                <div>
-                  <h4 className="font-bold">Suzuki Akiko</h4>
-                  <p className="text-gray-500 text-sm">Osaka</p>
-                </div>
-              </div>
-              <p className="text-gray-600 mb-4">
-                "The financing options at Japan Auto Exchange were excellent. I got a great rate on my new Honda, and the paperwork was handled efficiently. Highly recommend!"
-              </p>
-              <div className="flex text-yellow-400">
-                <span>★</span>
-                <span>★</span>
-                <span>★</span>
-                <span>★</span>
-                <span>★</span>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="flex items-center mb-4">
-                <img src="/img/avatar/avatar-9.jpg" alt="Customer" className="w-12 h-12 rounded-full object-cover mr-4" />
-                <div>
-                  <h4 className="font-bold">Yamamoto Ken</h4>
-                  <p className="text-gray-500 text-sm">Nagoya</p>
-                </div>
-              </div>
-              <p className="text-gray-600 mb-4">
-                "I've bought three cars from Japan Auto Exchange over the years, and each experience has been fantastic. Their after-sales service is exceptional, and they truly care about customer satisfaction."
-              </p>
-              <div className="flex text-yellow-400">
-                <span>★</span>
-                <span>★</span>
-                <span>★</span>
-                <span>★</span>
-                <span>★</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      
       {/* CTA Section */}
       <section className="py-16 bg-primary text-white">
         <div className="container">

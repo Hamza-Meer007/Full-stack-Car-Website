@@ -17,6 +17,10 @@ const Cars = () => {
 
   // Get search query from URL if any
   const searchQuery = searchParams.get('search') || ''
+  const countryParam = searchParams.get('country') || '';
+  const makeParam = searchParams.get('make') || '';
+  // const modelParam = searchParams.get('model') || '';
+  const priceRangeParam = searchParams.get('priceRange') || '';
 
   // Fetch all cars from the backend
   const [allCars, setAllCars] = useState<Car[]>([])
@@ -26,10 +30,20 @@ const Cars = () => {
     const getCars = async () => {
       setLoading(true)
       try {
-        const carsData = await fetchCars()
+        const carsData = await fetchCars(countryParam,makeParam)
         // Adapt the car data from backend format to frontend format
         const adaptedCars = carsData.map(car => adaptCarFromBackend(car))
         setAllCars(adaptedCars)
+        const initialFilters: any = {};
+      
+        if (countryParam) initialFilters.country = countryParam;
+        if (makeParam) initialFilters.make = makeParam;
+        if (priceRangeParam) initialFilters.priceRange = priceRangeParam;
+
+        if (Object.keys(initialFilters).length > 0) {
+        console.log("Applying initial filters:", initialFilters);
+        handleFilter(initialFilters);
+        }
       } catch (error) {
         console.error('Error fetching cars:', error)
       } finally {
@@ -38,7 +52,7 @@ const Cars = () => {
     }
 
     getCars()
-  }, [])
+  }, [countryParam,makeParam,])
 
   // Filter and sort cars when search query, sort option, or all cars change
   useEffect(() => {
@@ -93,38 +107,96 @@ const Cars = () => {
 
     // Apply make filter
     if (filters.make && filters.make !== 'all') {
-      filtered = filtered.filter(car => car.make === filters.make)
+      filtered = filtered.filter(car => 
+        car.make && car.make.toLowerCase().includes(filters.make.toLowerCase())
+      )
     }
 
     // Apply model filter
     if (filters.model && filters.model !== 'all') {
-      filtered = filtered.filter(car => car.model === filters.model)
+      filtered = filtered.filter(car => 
+        car.model && car.model.toLowerCase().includes(filters.model.toLowerCase())
+      )
     }
+    if (filters.country && filters.country !== 'all') {
+    filtered = filtered.filter(car => 
+      car.country && car.country.toLowerCase() === filters.country.toLowerCase()
+    )
+  }
 
-    // Apply year filter
-    if (filters.yearFrom) {
-      filtered = filtered.filter(car => (car.year || 0) >= filters.yearFrom)
-    }
-    if (filters.yearTo) {
-      filtered = filtered.filter(car => (car.year || 0) <= filters.yearTo)
-    }
+  // Apply price range filter
+  if (filters.priceRange && filters.priceRange !== '') {
+    filtered = filtered.filter(car => {
+      const carPrice = parseFloat(String(car.price)) || 0
+      
+      if (filters.priceRange === '10000000-') {
+        // Handle "10,000,000+" case
+        return carPrice >= 10000000
+      } else {
+        // Handle range like "1000000-2000000"
+        const [min, max] = filters.priceRange.split('-')
+        const minPrice = parseFloat(min)
+        const maxPrice = parseFloat(max)
+        
+        return carPrice >= minPrice && carPrice <= maxPrice
+      }
+    })
+  }
 
-    // Apply price filter
-    if (filters.priceFrom) {
-      filtered = filtered.filter(car => (car.price || 0) >= filters.priceFrom)
+
+if (filters.minYear) {
+      const minYear = parseInt(String(filters.minYear).trim(), 10)
+      console.log("Using minYear:", minYear, "isNaN:", isNaN(minYear))
+      
+      if (!isNaN(minYear)) {
+        // Log before filtering
+        console.log("Cars before year filter:", filtered.length)
+        const filteredByYear = filtered.filter(car => {
+          // Ensure car.year is a number
+          const carYear = parseInt(String(car.year), 10) || 0
+          const keepCar = carYear >= minYear
+          if (!keepCar) {
+            console.log("Filtering out car:", car.title, "year:", car.year, "as number:", carYear)
+          }
+          return keepCar
+        })
+        console.log("Cars after year filter:", filteredByYear.length)
+        filtered = filteredByYear
+      }
     }
-    if (filters.priceTo) {
-      filtered = filtered.filter(car => (car.price || 0) <= filters.priceTo)
+    
+    // Most strict implementation for maxYear
+    if (filters.maxYear) {
+      const maxYear = parseInt(String(filters.maxYear).trim(), 10)
+      console.log("Using maxYear:", maxYear, "isNaN:", isNaN(maxYear))
+      
+      if (!isNaN(maxYear)) {
+        console.log("Cars before year upper filter:", filtered.length)
+        const filteredByYear = filtered.filter(car => {
+          const carYear = parseInt(String(car.year), 10) || 0
+          const keepCar = carYear <= maxYear
+          if (!keepCar) {
+            console.log("Filtering out car:", car.title, "year:", car.year, "as number:", carYear)
+          }
+          return keepCar
+        })
+        console.log("Cars after year upper filter:", filteredByYear.length)
+        filtered = filteredByYear
+      }
     }
 
     // Apply fuel type filter
     if (filters.fuelType && filters.fuelType !== 'all') {
-      filtered = filtered.filter(car => car.fuel_type === filters.fuelType)
+      filtered = filtered.filter(car => 
+        car.fuel_type && car.fuel_type.toLowerCase() === filters.fuelType.toLowerCase()
+      )
     }
 
-    // Apply transmission filter
+    // Apply transmission filter - CASE INSENSITIVE
     if (filters.transmission && filters.transmission !== 'all') {
-      filtered = filtered.filter(car => car.transmission === filters.transmission)
+      filtered = filtered.filter(car => 
+        car.transmission && car.transmission.toLowerCase() === filters.transmission.toLowerCase()
+      )
     }
 
     setFilteredCars(filtered)

@@ -10,6 +10,7 @@ export interface Car {
   image_url?: string // Full URL to the image provided by the backend
   milage: number // Note: Backend uses 'milage' instead of 'mileage'
   fuel_type: string
+  country?: string // Country where the car is available
   transmission: string
   engine_size?: number
   power?: number

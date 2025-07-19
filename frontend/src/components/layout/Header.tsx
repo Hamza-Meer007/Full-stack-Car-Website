@@ -47,10 +47,10 @@ const Header = ({ onSearchClick }: HeaderProps) => {
                 Mon - Sun: 9:00am - 6:00pm
               </span>
             </div>
-            <div className="flex gap-4">
+            {/* <div className="flex gap-4">
               <Link to="/login" className="text-sm hover:text-primary-200">Login</Link>
               <Link to="/signup" className="text-sm hover:text-primary-200">Register</Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -243,12 +243,12 @@ const Header = ({ onSearchClick }: HeaderProps) => {
             </ul>
           </nav>
 
-          <div className="mt-8 pt-8 border-t">
+          {/* <div className="mt-8 pt-8 border-t">
             <div className="flex flex-col gap-4">
               <Link to="/login" className="btn btn-primary w-full">Login</Link>
               <Link to="/signup" className="btn btn-outline w-full">Register</Link>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </header>
